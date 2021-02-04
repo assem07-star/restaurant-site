@@ -1,0 +1,231 @@
+/* Small Phones and Tablets */
+@media (max-width: 767px) {
+  header,
+  .about,
+  .menu,
+  .chefs,
+  .testi,
+  .contact,
+  .footer {
+    padding: 1em 1.5em;
+  }
+  header.stick {
+    padding: 0.6em 1.5em;
+  }
+  .about .box img {
+    min-height: 19em;
+    margin-top: 7em;
+  }
+  .banner .content h2 {
+    font-size: 3rem;
+  }
+  .banner .content p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  .banner .main-btn {
+    padding: 0.8em 1.3em;
+  }
+  header .nav-bar {
+    display: none;
+  }
+  header .nav-bar li a:hover {
+    color: #fca311;
+  }
+  header .nav-bar li:hover::after {
+    width: 0;
+  }
+  header .menu-toggle {
+    position: relative;
+    width: 2.5em;
+    height: 2.5em;
+    background: url(../images/menu.png);
+    background-size: 2.7em;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+  header .menu-toggle.active {
+    background: url(../images/close.png);
+    background-size: 1.6em;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+  header.stick .menu-toggle {
+    filter: invert(1);
+  }
+  header .nav-bar.active {
+    position: fixed;
+    top: 43px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 43px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  header ul.nav-bar {
+    padding-left: 0;
+  }
+  header .nav-bar li {
+    margin-left: 0;
+    margin-bottom: 0.5em;
+  }
+  header .nav-bar li a {
+    color: #111;
+    font-size: 1.7rem;
+  }
+  .about .row {
+    flex-direction: column !important;
+  }
+  .about .box {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .about .box img {
+    min-height: 0em;
+    margin-top: 0.7em;
+  }
+  .about .box p {
+    text-align: left;
+  }
+  .row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .menu .img-box {
+    flex: 100%;
+    max-width: 100%;
+    /* margin-bottom: 2em; */
+  }
+  .menu p {
+    font-size: 1rem;
+  }
+
+  .chefs .box {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .chefs p {
+    font-size: 1rem;
+  }
+
+  .testi .box {
+    flex: 100%;
+    max-width: 100%;
+    padding: 2em 1em;
+    margin-bottom: 1em;
+  }
+  .testi .title p {
+    font-size: 1rem;
+  }
+  .contact .box {
+    flex: 100%;
+    max-width: 100%;
+    /* padding: 1em 2em; */
+  }
+  .contact .box input {
+    width: 100%;
+  }
+  .contact .box textarea {
+    width: 100%;
+  }
+}
+
+/* ------------------- New Section  ------------------- */
+
+/* Small Screen */
+@media (min-width: 768px) and (max-width: 991px) {
+  header,
+  .about,
+  .menu,
+  .chefs,
+  .testi,
+  .contact {
+    padding: 1em 1.5em;
+  }
+  header.stick {
+    padding: 0.6em 1.5em;
+  }
+  .about .box img {
+    min-height: 19em;
+    margin-top: 7em;
+  }
+  .banner .content p {
+    font-size: 1.7rem;
+  }
+  .menu .img-box {
+    flex: 47%;
+    max-width: 47%;
+    margin-bottom: 1em;
+  }
+  .chefs .row {
+    flex-wrap: wrap;
+  }
+  .chefs .box {
+    flex: 47%;
+    max-width: 47%;
+  }
+  .menu .btn .main-btn {
+    margin-top: 1.5em;
+  }
+  .testi {
+    min-height: 71em;
+  }
+  .testi .row {
+    flex-wrap: wrap;
+  }
+  .testi .box {
+    flex: 47%;
+    max-width: 47%;
+    margin-bottom: 2em;
+  }
+  .testi .box:last-child {
+    margin-left: 26.5%;
+    margin-right: 26.5%;
+  }
+}
+
+/* ------------------- New Section  ------------------- */
+
+/* Medium Screen */
+@media (min-width: 992px) and (max-width: 1199px) {
+  header,
+  .about,
+  .menu,
+  .chefs,
+  .testi,
+  .contact {
+    padding: 1em 4em;
+  }
+  header.stick {
+    padding: 0.6em 4em;
+  }
+  .about .box img {
+    min-height: 19em;
+    margin-top: 7em;
+  }
+  .testi {
+    min-height: 47em;
+  }
+  .chefs .row {
+    flex-wrap: wrap;
+  }
+  .chefs .box {
+    flex: 31%;
+    max-width: 31%;
+  }
+  .chefs .box:last-of-type {
+    margin: 0 34.5%;
+  }
+}
+
+/* ------------------- New Section  ------------------- */
+
+/* Large Screen */
+@media (min-width: 1200px) {
+}

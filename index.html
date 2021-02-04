@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Complete Responsive Website">
+    <title>Complete Responsive Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-query.css">
+</head>
+<body>
+  <!-- Start Header -->
+  <header>
+      <div class="logo">
+          <a href="#">Resto<span>Mi</span></a>
+      </div>
+      <!-- Start Nav -->
+      <nav>
+          <div class="menu-toggle" onclick="toggleMenu()"></div>
+       <ul class="nav-bar">
+
+           <li><a href="#banner" onclick="toggleMenu()">Home</a></li>
+           <li><a href="#about" onclick="toggleMenu()">About</a></li>
+           <li><a href="#menu" onclick="toggleMenu()">Menu</a></li>
+           <li><a href="#chefs" onclick="toggleMenu()">Chefs</a></li>
+           <li><a href="#testi" onclick="toggleMenu()">Testimonials</a></li>
+           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+       </ul>
+    </nav>
+      <!-- End Nav -->
+      
+  </header>
+  <section class="banner" id="banner">
+      <div class="overlay"></div>
+      <div class="content">
+          <h2>Delicious food</h2>
+          <p>Welcome to our restaurant! We are happy to serve you healthy food to be always in better health.</p>
+          <a class="main-btn" href="#">Our Menu</a>
+      </div>
+  </section>
+  <!-- End Header -->
+
+  <!-- ++++++++++++++ New Section ++++++++++++++ -->
+
+  <!-- Start About -->
+  <section class="about" id="about">
+    <div class="row">
+        <div class="box">
+            <h2 class="heading"><span>A</span>bout Us</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio minima quibusdam cum quasi perspiciatis voluptatem, similique expedita reprehenderit est fuga porro. Dolore, est repellat quod rerum eveniet vero voluptatum laborum.</p>  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid delectus sequi iste eligendi doloremque minus beatae numquam iure, nihil, doloribus veritatis eveniet hic quisquam ratione sit quo rem dolores dolorum.</p>
+        </div>
+        <div class="box">
+            <img class="img-res" src="images/bg.jpg" alt="">
+        </div>
+    </div>
+  </section>
+  <!-- End About -->
+
+  <!-- ++++++++++++++ New Section ++++++++++++++ -->
+  
+  <!-- Start Menu -->
+  <section class="menu" id="menu">
+      <h2 class=" heading txt-center">Our <span>M</span>enu</h2>
+      <p class="txt-center">Our Tasty recipes waiting for you. </p>
+      <div class="row">
+          <div class="img-box">
+              <img class="img-res" src="images/menu1.jpg" alt="Special Dishes">
+              <h4>Grilled Chicken Salad</h4>
+          </div>
+          <div class="img-box">
+              <img class="img-res" src="images/menu2.jpg" alt="Special Dishes">
+              <h4>Salad Recipes</h4>
+          </div>
+          <div class="img-box">
+              <img class="img-res" src="images/menu3.jpg" alt="Special Dishes">
+              <h4>Fresh Mushrooms</h4>
+          </div>
+          <div class="img-box">
+              <img class="img-res" src="images/menu4.jpg" alt="Special Dishes">
+              <h4>Salad with Garlic Toast</h4>
+          </div>
+          <div class="img-box">
+              <img class="img-res" src="images/menu5.jpg" alt="Special Dishes">
+              <h4>Salad Soup </h4>
+          </div>
+          <div class="img-box">
+              <img class="img-res" src="images/menu6.jpg" alt="Special Dishes">
+              <h4>Crispy Chicken</h4>
+          </div>
+      </div>
+      <div class="btn">
+      <a href="#" class="main-btn">View All</a>
+    </div>
+  </section>
+   <!-- End Menu -->
+
+  <!-- ++++++++++++++ New Section ++++++++++++++ -->
+
+  <!-- Start Chefs -->
+  <section class="chefs" id="chefs">
+      <div class="title txt-center">
+        <h2 class="heading">Our Kitchen <span>E</span>xpert</h2>
+        <p>Meet Our awesome Talent Expert Chefs in our Restaurant RestoMi. </p>
+      </div>
+      <div class="row">
+          <div class="box"><img class="img-res" src="images/expert1.jpg" alt="Chefs"><h4>Alen Mike</h4>
+        </div>
+          <div class="box"><img class="img-res" src="images/expert3.jpg" alt="Chefs"><h4>Helena Smith</h4>
+        </div>
+          <div class="box"><img class="img-res" src="images/expert4.jpg" alt="Chefs"><h4>Victor Edge</h4>
+        </div>
+          <div class="box"><img class="img-res" src="images/expert2.jpg" alt="Chefs"><h4>Alex Ryan</h4>
+        </div>
+      </div>
+
+  </section>
+  <!-- End Chefs -->
+
+  <!-- ++++++++++++++ New Section ++++++++++++++ -->
+
+  <!-- Start Testimonials  -->
+  <section class="testi" id="testi">
+    <div class="title txt-center">
+        <h2 class="heading">What They <span>S</span>aid About Us</h2>
+        <p>Meet Our Happy Clients After experiment our delicious food. </p>
+    </div>
+    <div class="row">
+        <div class="box">
+            <img class="img-rad" src="images/testi1.jpg" alt="Testimonials">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aliquid ullam soluta excepturi reprehenderit eveniet nostrum sapiente, earum obcaecati voluptate dignissimos odit iste quasi in ducimus necessitatibus!</p>
+            <h4>Marina Dayle</h4>
+        </div>
+        <div class="box">
+            <img class="img-rad" src="images/testi2.jpg" alt="Testimonials">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aliquid ullam soluta excepturi reprehenderit eveniet nostrum sapiente, earum obcaecati voluptate dignissimos odit iste quasi in ducimus necessitatibus!</p>
+            <h4>Thomas Froyden</h4>
+        </div>
+        <div class="box">
+            <img class="img-rad" src="images/testi3.jpg" alt="Testimonials">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aliquid ullam soluta excepturi reprehenderit eveniet nostrum sapiente, earum obcaecati voluptate dignissimos odit iste quasi in ducimus necessitatibus!</p>
+            <h4>Emma Daniella</h4>
+        </div>
+    </div>
+  </section>
+  <!-- End Testimonials  -->
+
+  <!-- ++++++++++++++ New Section ++++++++++++++ -->
+
+  <!-- Start Contact Us -->
+  <section class="contact" id="contact">
+    <div class="title txt-center">
+        <h2 class="heading"><span>C</span>Contact Us</h2>
+        <p>We will be Happy To contact us anytime you like. </p>
+    </div>
+    <div class="row">
+        <div class="box">
+            <h4>Send Message</h4>
+            <form>
+                <input type="text" name="name" id="name" placeholder="Your Name">
+                <input type="email" name="email" id="my-email" placeholder="Your Email" >
+                <textarea name="era" id="era" placeholder="Your Message"></textarea>
+                <a class="main-btn" href="#">Send</a>
+
+            </form>
+
+        </div>
+        
+    </div>
+  </section>
+  <!-- End Contact Us -->
+
+  <!-- ++++++++++++++ New Section ++++++++++++++ -->
+
+  <!-- Start Footer -->
+  <section class="footer">
+    <div class="title txt-center">
+        <h2 class="heading"><span>A</span>ssem Hafsi</h2>
+        <p>This template is made with love and Passion  | Copyright &copy;2020 </p>
+    </div>
+  </section>
+  <!-- End Footer -->
+
+  <!-- ++++++++++++++ New Section ++++++++++++++ -->
+    
+  <script type="text/javascript">
+  window.addEventListener('scroll',function(){
+const head = document.querySelector('header');
+head.classList.toggle('stick', window.scrollY > 0);
+  });
+function toggleMenu(){
+    const myToggle = document.querySelector('.menu-toggle');
+    const myNav = document.querySelector('.nav-bar');
+    myToggle.classList.toggle('active');
+    myNav.classList.toggle('active');
+}
+  </script>
+</body>
+</html>
